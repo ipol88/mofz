@@ -1,0 +1,89 @@
+body {
+    padding-top: 5rem;
+    background-color: rgb(0,0,0);
+    color: #ffffff;
+}
+.bg-dark {
+    background-color: rgba(0,0,0, 0.8)!important;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: #ffffff
+}
+
+.slider {
+    background: url("../images/bg-top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    max-height: 100%;
+}
+
+.text-slider {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+    font-size: 1.3rem;
+    vertical-align: middle;
+    padding: 90px 0px;
+}
+
+.text-slider h2 {
+    margin: auto;
+    font-size: 2rem;
+}
+.text-slider p {
+    padding: 0 40px;
+}
+
+#watchmovie,
+#kidsmovie,
+#list {
+    padding: 50px 15px;
+    color: #ffffff;
+}
+
+#watchmovie {
+    background-color: #fefefe;
+    color: #333333;
+}
+img.watchmovie {
+    border-radius: 120px 243px 133px 246px;
+}
+
+img.kidsmovie {
+    border-radius: 270px 143px 233px 146px;
+}
+img.kidsmovie2 {
+    border-radius: 570px 343px 113px 56px;
+}
+img.kidsmovie3 {
+    border-radius: 224px 63px 272px 177px;
+}
+img.kidsmovie4 {
+    border-radius: 120px 113px 263px 246px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 15px;
+}
+
+#intro {
+    vertical-align: bottom;
+    color: #ffffff;
+    padding-left: 0px;
+}
+
+
+@media screen and (min-width: 300px) {
+    section p {
+        font-size: 1rem;
+    }
+    .text-slider p {
+        padding: 0 10px;
+    }
+}
