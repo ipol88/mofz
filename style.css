@@ -4,7 +4,7 @@ body {
     color: #ffffff;
 }
 .bg-dark {
-    background-color: rgba(0,0,0, 0.8)!important;
+    background-color: rgba(247, 245, 245, 0)!important;
 }
 .starter-template {
     padding: 3rem 1.5rem;
